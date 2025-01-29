@@ -15,12 +15,12 @@ describe("Calculadora de cadenas", () => {
   it("retorna la suma para una cadena de dos numeros", () => {
     expect(calcular("1,2")).toEqual(3);
   });
-  /*
+
   //test4
   it("retorna la suma para una cadena de varios numeros", () => {
     expect(calcular("1,2,3,4")).toEqual(10);
   });
-
+  /*
   //test5
   it("retorna la suma para una cadena de varios numeros incluido caracter -", () => {
     expect(calcular("1,2,3-4")).toEqual(10);
